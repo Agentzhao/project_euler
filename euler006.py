@@ -10,3 +10,16 @@ for i in range(1,100):
 squareofsum = squareofsum**2
 
 print(squareofsum - sumofsquare)
+
+#----function----
+def sumsquarediff(number):
+    sumofsquare = 0
+    for i in range (1,number):
+        sumofsquare += i**2
+    
+    squareofsum = 0
+    for i in range(1,number):
+        squareofsum += i
+    squareofsum = squareofsum**2
+    
+    print(squareofsum - sumofsquare)
