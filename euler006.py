@@ -23,3 +23,4 @@ def sumsquarediff(number):
     squareofsum = squareofsum**2
     
     print(squareofsum - sumofsquare)
+  
