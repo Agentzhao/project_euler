@@ -15,5 +15,4 @@ def palindrone():
                 maxi = i*j
     return maxi
 
-print(palindrone())
-
+palindrone()
